@@ -1,0 +1,28 @@
+.workbox__container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: 50px;
+    height: 450px;
+    overflow: scroll;
+    z-index: 2;
+
+}
+.work__item {
+    /* position: absolute; */
+    transition: 1s ease;
+    margin-bottom: 30px;
+}
+
+
+.workbox__container img {
+    width: 500px;
+}
+.workbox__container h3 {
+    color: white;
+    background: black;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    width: 350px;
+}

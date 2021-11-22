@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import Stripes from './components/Stripes'
+import Title from './components/Title';
+import WorkBox from './components/WorkBox';
+import AboutBox from './components/AboutBox';
+import ContactBox from './components/ContactBox'
+
 import './App.css';
+import Waves from './components/Waves';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Stripes />
+      <Title />
+      <div style={{ paddingTop: '10%'}}>
+        <AboutBox />
+        <ContactBox />
+      </div>
+      <WorkBox />
+      <Waves />
     </div>
   );
 }

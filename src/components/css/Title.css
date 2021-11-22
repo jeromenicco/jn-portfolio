@@ -1,0 +1,24 @@
+.title__container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+    width: fit-content;
+    text-align: end;
+}
+
+.title__name {
+    background: black;
+    color: white;
+    padding-left: 100px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.title__text {
+    background: black;
+    color: white;
+    padding-left: 100px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+

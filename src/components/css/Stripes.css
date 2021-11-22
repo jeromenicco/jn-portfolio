@@ -1,0 +1,73 @@
+.stripe__container {
+    position: relative;
+}
+
+.stripes__top__container {
+    position: absolute;
+    top: 0;
+    min-width: 100vw;
+}
+.stripes__bottom__container {
+    position: absolute;
+    bottom: 0;
+    min-width: 100vw;
+    z-index: 1;
+}
+.stripe__1 {
+    height: 30px;
+    width: 100%;
+    background: black;
+    margin-bottom: 1px;
+}
+.stripe__2 {
+    height: 15px;
+    width: 100%;
+    background: black;
+    margin-bottom: 3px;
+}
+.stripe__3 {
+    height: 9px;
+    width: 100%;
+    background: black;
+    margin-bottom: 6px;
+}
+.stripe__4 {
+    height: 5px;
+    width: 100%;
+    background: black;
+    margin-bottom: 9px;
+}
+.stripe__5 {
+    height: 1.5px;
+    width: 100%;
+    background: black;
+}
+.stripe__bottom__1 {
+    height: 2px;
+    width: 100%;
+    background: black;
+}
+.stripe__bottom__2 {
+    height: 5px;
+    width: 100%;
+    background: black;
+    margin-top: 9px;
+}
+.stripe__bottom__3 {
+    height: 9px;
+    width: 100%;
+    background: black;
+    margin-top: 6px;
+}
+.stripe__bottom__4 {
+    height: 15px;
+    width: 100%;
+    background: black;
+    margin-top: 3px;
+}
+.stripe__bottom__5 {
+    height: 30px;
+    width: 100%;
+    background: black;
+    margin-top: 1px;
+}

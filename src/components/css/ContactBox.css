@@ -1,0 +1,71 @@
+.contactbox__container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: 50px;
+    border: 2px solid black;
+    border-bottom: 1px solid black;
+    height: fit-content;
+}
+.contact__name {
+    color: white;
+    background: black;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    width: 350px;
+}
+.contact__text {
+    color: black;
+    background: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    width: 350px;
+}
+
+.email__container {
+    margin-left: 50px;
+    background: white;
+    border: 2px solid black;
+    height: fit-content;
+    cursor: pointer;
+    transition: 0.4s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+.email__container a, .email__container2 a {
+    text-decoration: none;
+    color: black;
+}
+.email__container2 {
+    margin-left: 50px;
+    background: white;
+    border: 2px solid black;
+    height: fit-content;
+    cursor: pointer;
+    transition: 0.4s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    border-top: 1px solid black;
+}
+.email__container:hover {
+    transform: translateX(-20px);
+    background: rgb(131, 255, 131);
+}
+.email__container2:hover {
+    transform: translateX(-20px);
+    background: rgb(247, 255, 133);
+}
+
+
+.email__button {
+    margin: 0;
+    margin-right: 10px;
+}
