@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+
 .App {
   margin: 0;
   padding: 0;
@@ -5,6 +7,12 @@
   background: blue;
   display: flex;
 }
+
+/* h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+} */
 
 /* .App-logo {
   height: 40vmin;

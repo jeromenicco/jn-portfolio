@@ -29,7 +29,7 @@ const WorkBox = () => {
               return (
               <div key={index} className={`work__item work__item${index}`} >
                 <h3>{item.name}</h3>
-                <img src={item.image} alt={item} />
+                <img className={`work__image${index}`} src={item.image} alt={item} />
               </div>
               )
             })

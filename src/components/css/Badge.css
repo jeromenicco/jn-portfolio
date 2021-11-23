@@ -1,0 +1,32 @@
+.badge__container {
+    position: relative;
+}
+
+.circular__text__container {
+    position: absolute;
+    z-index: 2;
+    animation:spin 30s linear infinite;
+    -webkit-animation:spin 30s linear infinite;
+    -moz-animation:spin 30s linear infinite;
+}
+
+.circular__text {
+    color: rgb(255, 0, 234);
+    font-size: 25px;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+.j__container {
+    position: absolute;
+    top: -114px;
+    left: -38px;
+}
+.letter__j {
+    font-size: 150px;
+    font-style: italic;
+    text-shadow: -4px 3px 0 rgb(255, 0, 234), -14px 7px 0 black;
+}

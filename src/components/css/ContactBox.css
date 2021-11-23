@@ -2,11 +2,11 @@
     display: flex;
     flex-direction: column;
     margin-top: 10%;
-    margin-left: 50px;
+    margin-left: 100px;
     border: 2px solid black;
-    border-bottom: 1px solid black;
-    height: fit-content;
+    /* border-bottom: 1px solid black; */
 }
+
 .contact__name {
     color: white;
     background: black;
@@ -27,8 +27,10 @@
 }
 
 .email__container {
-    margin-left: 50px;
-    background: white;
+    margin-top: 5px;
+    margin-left: 100px;
+    /* background: white; */
+    background: rgb(131, 255, 131);;
     border: 2px solid black;
     height: fit-content;
     cursor: pointer;
@@ -43,8 +45,9 @@
     color: black;
 }
 .email__container2 {
-    margin-left: 50px;
-    background: white;
+    margin-left: 100px;
+    /* background: white; */
+    background: rgb(247, 255, 133);
     border: 2px solid black;
     height: fit-content;
     cursor: pointer;

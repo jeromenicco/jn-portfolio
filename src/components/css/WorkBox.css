@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     margin-top: 10%;
-    margin-left: 50px;
-    height: 450px;
+    margin-left: 100px;
+    height: 550px;
     overflow: scroll;
     z-index: 2;
 
@@ -12,12 +12,30 @@
     /* position: absolute; */
     transition: 1s ease;
     margin-bottom: 30px;
+    cursor: pointer;
 }
 
+/* .work__image0:hover {
+    filter: brightness(100%);
+    transition: filter 1s ease;
+}
+
+.work__image1:hover {
+    filter: brightness(100%);
+    transition: filter 0.6s ease;
+}
+
+.work__image2:hover {
+    filter: brightness(100%);
+    transition: filter 0.6s ease;
+} */
 
 .workbox__container img {
-    width: 500px;
+    width: 700px;
+    /* filter: brightness(50%); */
+    /* transition: filter 0.6s ease; */
 }
+
 .workbox__container h3 {
     color: white;
     background: black;
