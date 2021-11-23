@@ -12,7 +12,7 @@ const ContactBox = () => {
             </div>
             <div className='email__container'>
                 <h3 className='email__button'>
-                    <a href='mailto:contact@jeromenicco/.com'>E-mail</a>
+                    <a href='mailto:contact@jeromenicco.com'>contact@jeromenicco.com</a>
                 </h3>
                 <ImArrowLeft />
             </div>
